@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="signup-page" class="page">
+        <h1>Signup</h1>
+        <div id="signup-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+
+            <button id="signup-btn">Sign Up</button>
+            <p id="signup-message"></p>
+        </div>
+    </div>
+
+    <div id="profile-page" class="page">
+        <h1>Profile</h1>
+        <div id="profile-details">
+            <p><strong>Username:</strong> <span id="profile-username"></span></p>
+            <p><strong>Email:</strong> <span id="profile-email"></span></p>
+            <p><strong>Password:</strong> <span id="profile-password"></span></p>
+        </div>
+        <button id="logout-btn">Logout</button>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
